@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "percobaan"
+name = "thesisfl"
 version = "1.0.0"
-description = "Federated Learning using Flower and TensorFlow"
+description = "Thesis Federated Learning CIDS"
 license = "Apache-2.0"
 dependencies = [
     "flwr[simulation]>=1.10.0",
@@ -20,11 +20,11 @@ dependencies = [
 packages = ["."]
 
 [tool.flwr.app]
-publisher = "satria"
+publisher = "satriawh"
 
 [tool.flwr.app.components]
-serverapp = "percobaan.server_app:app"
-clientapp = "percobaan.client_app:app"
+serverapp = "thesisfl.server_app:app"
+clientapp = "thesisfl.client_app:app"
 
 [tool.flwr.app.config]
 num-server-rounds = 3
@@ -36,4 +36,4 @@ verbose = false
 default = "local-simulation"
 
 [tool.flwr.federations.local-simulation]
-options.num-supernodes = 2
+options.num-supernodes = 3

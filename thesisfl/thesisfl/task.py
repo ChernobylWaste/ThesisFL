@@ -1,4 +1,4 @@
-"""percobaan: A Flower / TensorFlow app."""
+"""thesisfl: A Flower / TensorFlow app."""
 
 import os
 import pandas as pd

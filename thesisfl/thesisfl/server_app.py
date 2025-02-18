@@ -1,9 +1,18 @@
-"""percobaan: A Flower / TensorFlow app."""
+"""thesisfl: A Flower / TensorFlow app."""
 
-from flwr.common import Context, ndarrays_to_parameters
+from typing import List, Tuple
+from flwr.common import Context, ndarrays_to_parameters, Metrics
 from flwr.server import ServerApp, ServerAppComponents, ServerConfig
 from flwr.server.strategy import FedAvg
-from percobaan.task import load_model
+from thesisfl.task import load_model
+
+def weighted_average(metrics: List[Tuple[int, Metrics]]) -> Metrics :
+    # Fungsi aggregate akurasi dari global model yang udah di terima ke server
+    
+    accuracies = [num_examples * m["accuracy"] for num_examples, m in metrics]
+    total_examples = sum(num_examples for num_examples, _ in metrics)
+
+    return {"accuracy": sum(accuracies) / total_examples}
 
 def server_fn(context: Context):
     # Read number of rounds from configuration
@@ -18,6 +27,7 @@ def server_fn(context: Context):
         fraction_evaluate=1.0,
         min_available_clients=2,
         initial_parameters=parameters,
+        evaluate_metrics_aggregation_fn=weighted_average,
     )
     config = ServerConfig(num_rounds=num_rounds)
 

@@ -1,8 +1,8 @@
-"""percobaan: A Flower / TensorFlow app."""
+"""thesisfl: A Flower / TensorFlow app."""
 
 from flwr.client import NumPyClient, ClientApp
 from flwr.common import Context
-from percobaan.task import load_data, load_model
+from thesisfl.task import load_data, load_model
 import numpy as np
 
 class FlowerClient(NumPyClient):

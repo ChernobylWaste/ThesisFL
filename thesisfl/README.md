@@ -1,4 +1,4 @@
-# percobaan: A Flower / TensorFlow app
+# thesisfl: A Flower / TensorFlow app
 
 ## Install dependencies and project
 
@@ -8,7 +8,7 @@ pip install -e .
 
 ## Run with the Simulation Engine
 
-In the `percobaan` directory, use `flwr run` to run a local simulation:
+In the `thesisfl` directory, use `flwr run` to run a local simulation:
 
 ```bash
 flwr run .
