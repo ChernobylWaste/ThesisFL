@@ -15,14 +15,21 @@ class FlowerClient(NumPyClient):
 
     def fit(self, parameters, config):
         self.model.set_weights(parameters)
-        self.model.fit(
+        history = self.model.fit(
             self.x_train,
             self.y_train,
             epochs=self.epochs,
             batch_size=self.batch_size,
             verbose=self.verbose,
         )
-        return self.model.get_weights(), len(self.x_train), {}
+        train_loss = history.history["loss"][-1]
+        train_accuracy = history.history["accuracy"][-1]
+
+        return self.model.get_weights(), len(self.x_train), {
+            "train_loss": train_loss,
+            "train_accuracy": train_accuracy
+        }
+
 
     def evaluate(self, parameters, config):
         self.model.set_weights(parameters)

@@ -14,6 +14,17 @@ def weighted_average(metrics: List[Tuple[int, Metrics]]) -> Metrics :
 
     return {"accuracy": sum(accuracies) / total_examples}
 
+def handle_fit_metrics(metrics: List[Tuple[int, Metrics]]) -> Metrics:
+    for client_id, (_, m) in enumerate(metrics):
+        print(f"Client {client_id + 1} - Train Loss: {m['train_loss']:.4f}, Train Accuracy: {m['train_accuracy']:.4f}")
+    return {}
+
+
+# def handle_fit_metrics(metrics: List[Tuple[int, Metrics]]) -> Metrics :
+#     for _,m in metrics:
+#         print(m)
+#     return{}
+
 def server_fn(context: Context):
     # Read number of rounds from configuration
     num_rounds = context.run_config["num-server-rounds"]
@@ -28,6 +39,7 @@ def server_fn(context: Context):
         min_available_clients=2,
         initial_parameters=parameters,
         evaluate_metrics_aggregation_fn=weighted_average,
+        fit_metrics_aggregation_fn=handle_fit_metrics,
     )
     config = ServerConfig(num_rounds=num_rounds)
 
