@@ -28,7 +28,7 @@ clientapp = "thesisfl.client_app:app"
 
 [tool.flwr.app.config]
 num-server-rounds = 2
-local-epochs = 1
+local-epochs = 3
 batch-size = 32
 verbose = false
 
@@ -36,4 +36,4 @@ verbose = false
 default = "local-simulation"
 
 [tool.flwr.federations.local-simulation]
-options.num-supernodes = 3
+options.num-supernodes = 4

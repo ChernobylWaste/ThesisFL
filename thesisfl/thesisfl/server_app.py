@@ -32,7 +32,7 @@ def server_fn(context: Context):
     # Initialize global model with weights
     parameters = ndarrays_to_parameters(load_model().get_weights())
 
-    # Define the federated learning strategy
+    # federated learning strategy
     strategy = FedAvg(
         fraction_fit=1.0,
         fraction_evaluate=1.0,
