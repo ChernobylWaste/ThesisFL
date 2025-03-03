@@ -28,7 +28,7 @@ clientapp = "thesisfl.client_app:app"
 
 [tool.flwr.app.config]
 num-server-rounds = 2
-local-epochs = 3
+local-epochs = 5
 batch-size = 32
 verbose = false
 
