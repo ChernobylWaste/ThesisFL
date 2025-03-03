@@ -58,7 +58,7 @@ def load_model():
         Dense(units=128, activation='relu', input_dim=23),
         Dense(units=64, activation='relu'),
         Dense(units=32, activation='relu'),
-        Dense(units=9, activation='softmax')  # Output layer untuk 9 classes
+        Dense(units=9, activation='softmax')  # Output layer untuk 9 kelas
     ])
 
     model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
