@@ -1,0 +1,34 @@
+Client 1 - Train Loss: 0.4215, Train Accuracy: 0.7908, Samples: 1451398
+Client 2 - Train Loss: 0.3870, Train Accuracy: 0.8119, Samples: 1451398
+Client 1 - Test Loss: 2.1653, Test Accuracy: 0.2062, Samples: 362850
+Client 2 - Test Loss: 2.2020, Test Accuracy: 0.2276, Samples: 362850
+[Global Evaluation] - Test Loss: 2.1837, Test Accuracy: 0.2169
+
+Client 1 - Train Loss: 0.4114, Train Accuracy: 0.7951, Samples: 1451398
+Client 2 - Train Loss: 0.3799, Train Accuracy: 0.8151, Samples: 1451398
+Client 1 - Test Loss: 0.5005, Test Accuracy: 0.7398, Samples: 362850
+Client 2 - Test Loss: 0.5167, Test Accuracy: 0.7358, Samples: 362850
+[Global Evaluation] - Test Loss: 0.5086, Test Accuracy: 0.7378
+
+Client 1 - Train Loss: 0.3759, Train Accuracy: 0.8166, Samples: 1451398
+Client 2 - Train Loss: 0.4058, Train Accuracy: 0.7975, Samples: 1451398
+Client 1 - Test Loss: 0.3966, Test Accuracy: 0.8154, Samples: 362850
+Client 2 - Test Loss: 0.4284, Test Accuracy: 0.7959, Samples: 362850
+[Global Evaluation] - Test Loss: 0.4125, Test Accuracy: 0.8057
+
+Client 1 - Train Loss: 0.4035, Train Accuracy: 0.7983, Samples: 1451398
+Client 2 - Train Loss: 0.3737, Train Accuracy: 0.8172, Samples: 1451398
+Client 1 - Test Loss: 0.4064, Test Accuracy: 0.8010, Samples: 362850
+Client 2 - Test Loss: 0.3766, Test Accuracy: 0.8196, Samples: 362850
+[Global Evaluation] - Test Loss: 0.3915, Test Accuracy: 0.8103
+
+Client 1 - Train Loss: 0.4028, Train Accuracy: 0.7984, Samples: 1451398
+Client 2 - Train Loss: 0.3720, Train Accuracy: 0.8180, Samples: 1451398
+Client 1 - Test Loss: 0.3958, Test Accuracy: 0.8191, Samples: 362850
+Client 2 - Test Loss: 0.4239, Test Accuracy: 0.8001, Samples: 362850
+[Global Evaluation] - Test Loss: 0.4099, Test Accuracy: 0.8096
+
+Time : 2503.62s
+local epochs : 10
+num_rounds : 5
+batch-size : 32

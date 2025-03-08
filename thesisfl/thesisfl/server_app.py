@@ -1,9 +1,11 @@
 """thesisfl: A Flower / TensorFlow app."""
 
+import time
 from typing import List, Tuple
 from flwr.common import Context, ndarrays_to_parameters, Metrics
 from flwr.server import ServerApp, ServerAppComponents, ServerConfig
 from flwr.server.strategy import FedAvg
+from flwr.server.strategy import FedProx
 from thesisfl.task import load_model
 
 def weighted_average(metrics: List[Tuple[int, Metrics]]) -> Metrics:
@@ -25,9 +27,9 @@ def aggregate_evaluate_metrics(metrics: List[Tuple[int, Metrics]]) -> Metrics:
     log_msg = (f"\n[Global Evaluation] - Test Loss: {global_loss:.4f}, "
                f"Test Accuracy: {global_accuracy:.4f}\n")
 
-    print(log_msg)
+    print(log_msg)  # Print ke terminal
     with open("results.txt", "a") as log_file:
-        log_file.write(log_msg)
+        log_file.write(log_msg)  # Simpan ke file
 
     return {"loss": global_loss, "accuracy": global_accuracy}
 
@@ -50,7 +52,7 @@ def handle_evaluate_metrics(metrics: List[Tuple[int, Metrics]]) -> Metrics:
             print(log_msg, end="")
             log_file.write(log_msg)
 
-    return aggregate_evaluate_metrics(metrics)
+    return aggregate_evaluate_metrics(metrics)  # Gunakan fungsi agregasi
 
 def server_fn(context: Context):
     # Read number of rounds from configuration
@@ -59,16 +61,17 @@ def server_fn(context: Context):
     # Initialize global model with weights
     parameters = ndarrays_to_parameters(load_model().get_weights())
 
-    # federated learning strategy
-    strategy = FedAvg(
+    # Define the federated learning strategy
+    strategy = FedProx(
         fraction_fit=1.0,
         fraction_evaluate=1.0,
-        min_fit_clients=4,
-        min_evaluate_clients=4,
-        min_available_clients=4,
+        min_fit_clients=2,
+        min_evaluate_clients=2,
+        min_available_clients=2,
         initial_parameters=parameters,
         evaluate_metrics_aggregation_fn=handle_evaluate_metrics,
         fit_metrics_aggregation_fn=handle_fit_metrics,
+        proximal_mu=0.1
     )
     config = ServerConfig(num_rounds=num_rounds)
 
