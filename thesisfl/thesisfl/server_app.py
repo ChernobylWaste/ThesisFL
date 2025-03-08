@@ -27,9 +27,9 @@ def aggregate_evaluate_metrics(metrics: List[Tuple[int, Metrics]]) -> Metrics:
     log_msg = (f"\n[Global Evaluation] - Test Loss: {global_loss:.4f}, "
                f"Test Accuracy: {global_accuracy:.4f}\n")
 
-    print(log_msg)  # Print ke terminal
+    print(log_msg)
     with open("results.txt", "a") as log_file:
-        log_file.write(log_msg)  # Simpan ke file
+        log_file.write(log_msg)
 
     return {"loss": global_loss, "accuracy": global_accuracy}
 
@@ -52,7 +52,7 @@ def handle_evaluate_metrics(metrics: List[Tuple[int, Metrics]]) -> Metrics:
             print(log_msg, end="")
             log_file.write(log_msg)
 
-    return aggregate_evaluate_metrics(metrics)  # Gunakan fungsi agregasi
+    return aggregate_evaluate_metrics(metrics)
 
 def server_fn(context: Context):
     # Read number of rounds from configuration
@@ -62,7 +62,7 @@ def server_fn(context: Context):
     parameters = ndarrays_to_parameters(load_model().get_weights())
 
     # Define the federated learning strategy
-    strategy = FedProx(
+    strategy = FedAvg(
         fraction_fit=1.0,
         fraction_evaluate=1.0,
         min_fit_clients=2,
@@ -71,7 +71,7 @@ def server_fn(context: Context):
         initial_parameters=parameters,
         evaluate_metrics_aggregation_fn=handle_evaluate_metrics,
         fit_metrics_aggregation_fn=handle_fit_metrics,
-        proximal_mu=0.1
+        # proximal_mu=0.1 # FedProx
     )
     config = ServerConfig(num_rounds=num_rounds)
 

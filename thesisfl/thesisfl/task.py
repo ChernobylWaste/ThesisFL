@@ -37,8 +37,8 @@ def load_data(partition_id, num_partitions):
     labels = df["Attack Type"]
 
     # # Normalisasi menggunakan StandardScaler
-    # scaler = MinMaxScaler()
-    # features = scaler.fit_transform(features)
+    scaler = StandardScaler()
+    features = scaler.fit_transform(features)
 
     # Partisi dataset sesuai jumlah client
     total_samples = len(df)
