@@ -16,22 +16,38 @@ def weighted_average(metrics: List[Tuple[int, Metrics]]) -> Metrics:
     return {"accuracy": sum(accuracies) / total_examples}
 
 def aggregate_evaluate_metrics(metrics: List[Tuple[int, Metrics]]) -> Metrics:
-    """Menghitung rata-rata loss & akurasi dari hasil evaluasi (testing)."""
+    """Menghitung rata-rata loss, akurasi, precision, recall, dan F1-score global."""
     total_examples = sum(num_examples for num_examples, _ in metrics)
+    
     losses = [num_examples * m["loss"] for num_examples, m in metrics]
     accuracies = [num_examples * m["accuracy"] for num_examples, m in metrics]
+    precisions = [num_examples * m["precision"] for num_examples, m in metrics]
+    recalls = [num_examples * m["recall"] for num_examples, m in metrics]
+    f1_scores = [num_examples * m["f1_score"] for num_examples, m in metrics]
 
     global_loss = sum(losses) / total_examples
     global_accuracy = sum(accuracies) / total_examples
+    global_precision = sum(precisions) / total_examples
+    global_recall = sum(recalls) / total_examples
+    global_f1 = sum(f1_scores) / total_examples
 
     log_msg = (f"\n[Global Evaluation] - Test Loss: {global_loss:.4f}, "
-               f"Test Accuracy: {global_accuracy:.4f}\n")
+               f"Test Accuracy: {global_accuracy:.4f}, "
+               f"Precision: {global_precision:.4f}, "
+               f"Recall: {global_recall:.4f}, "
+               f"F1-Score: {global_f1:.4f}\n")
 
     print(log_msg)
     with open("results.txt", "a") as log_file:
         log_file.write(log_msg)
 
-    return {"loss": global_loss, "accuracy": global_accuracy}
+    return {
+        "loss": global_loss,
+        "accuracy": global_accuracy,
+        "precision": global_precision,
+        "recall": global_recall,
+        "f1_score": global_f1
+    }
 
 def handle_fit_metrics(metrics: List[Tuple[int, Metrics]]) -> Metrics:
     """Mencatat hasil training tiap client."""
@@ -52,10 +68,9 @@ def handle_evaluate_metrics(metrics: List[Tuple[int, Metrics]]) -> Metrics:
             print(log_msg, end="")
             log_file.write(log_msg)
 
-    return aggregate_evaluate_metrics(metrics)
+    return aggregate_evaluate_metrics(metrics)  # Gunakan fungsi agregasi
 
 def server_fn(context: Context):
-    # Read number of rounds from configuration
     num_rounds = context.run_config["num-server-rounds"]
 
     # Initialize global model with weights
@@ -71,7 +86,7 @@ def server_fn(context: Context):
         initial_parameters=parameters,
         evaluate_metrics_aggregation_fn=handle_evaluate_metrics,
         fit_metrics_aggregation_fn=handle_fit_metrics,
-        # proximal_mu=0.1 # FedProx
+        # proximal_mu=0.1
     )
     config = ServerConfig(num_rounds=num_rounds)
 

@@ -4,6 +4,7 @@ from flwr.client import NumPyClient, ClientApp
 from flwr.common import Context
 from thesisfl.task import load_data, load_model
 import numpy as np
+from sklearn.metrics import precision_score, recall_score, f1_score
 
 class FlowerClient(NumPyClient):
     def __init__(self, model, data, epochs, batch_size, verbose):
@@ -30,11 +31,26 @@ class FlowerClient(NumPyClient):
             "train_accuracy": train_accuracy
         }
 
-
     def evaluate(self, parameters, config):
         self.model.set_weights(parameters)
+        
+        y_pred_prob = self.model.predict(self.x_test, verbose=0)
+        y_pred = np.argmax(y_pred_prob, axis=1)
+        y_true = np.argmax(self.y_test, axis=1)
+
+        precision = precision_score(y_true, y_pred, average="weighted", zero_division=0)
+        recall = recall_score(y_true, y_pred, average="weighted", zero_division=0)
+        f1 = f1_score(y_true, y_pred, average="weighted", zero_division=0)
+
         loss, accuracy = self.model.evaluate(self.x_test, self.y_test, verbose=0)
-        return loss, len(self.x_test), {"loss": loss, "accuracy": accuracy}
+
+        return loss, len(self.x_test), {
+            "loss": loss,
+            "accuracy": accuracy,
+            "precision": precision,
+            "recall": recall,
+            "f1_score": f1
+        }
 
 def client_fn(context: Context):
     # Load model and dataset
