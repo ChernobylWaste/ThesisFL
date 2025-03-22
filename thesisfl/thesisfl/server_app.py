@@ -31,7 +31,7 @@ def aggregate_evaluate_metrics(metrics: List[Tuple[int, Metrics]]) -> Metrics:
     global_recall = sum(recalls) / total_examples
     global_f1 = sum(f1_scores) / total_examples
 
-    log_msg = (f"\n[Global Evaluation] - Test Loss: {global_loss:.4f}, "
+    log_msg = (f"[Global Evaluation] - Test Loss: {global_loss:.4f}, "
                f"Test Accuracy: {global_accuracy:.4f}, "
                f"Precision: {global_precision:.4f}, "
                f"Recall: {global_recall:.4f}, "
@@ -54,7 +54,7 @@ def handle_fit_metrics(metrics: List[Tuple[int, Metrics]]) -> Metrics:
     with open("results.txt", "a") as log_file:
         for client_id, (num_examples, m) in enumerate(metrics, start=1):
             log_msg = (f"Client {client_id} - Train Loss: {m['train_loss']:.4f}, "
-                       f"Train Accuracy: {m['train_accuracy']:.4f}, Samples: {num_examples}\n")
+                       f"Train Accuracy: {m['train_accuracy']:.4f}, Samples: {num_examples}\n" )
             print(log_msg, end="")
             log_file.write(log_msg)
     return {}
@@ -86,7 +86,7 @@ def server_fn(context: Context):
         initial_parameters=parameters,
         evaluate_metrics_aggregation_fn=handle_evaluate_metrics,
         fit_metrics_aggregation_fn=handle_fit_metrics,
-        # proximal_mu=0.1
+        # proximal_mu=1.0
     )
     config = ServerConfig(num_rounds=num_rounds)
 

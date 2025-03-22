@@ -1,0 +1,283 @@
+Round 1
+Client 1 - Train Loss: 0.0428, Train Accuracy: 0.9844, Samples: 1451398
+Client 2 - Train Loss: 0.0391, Train Accuracy: 0.9860, Samples: 1451398
+Client 1 - Test Loss: 0.6263, Test Accuracy: 0.7791, Samples: 362850
+Client 2 - Test Loss: 0.6234, Test Accuracy: 0.7833, Samples: 362850
+[Global Evaluation] - Test Loss: 0.6248, Test Accuracy: 0.7812, Precision: 0.8364, Recall: 0.7812, F1-Score: 0.7913
+
+Round 2
+Client 1 - Train Loss: 0.0360, Train Accuracy: 0.9871, Samples: 1451398
+Client 2 - Train Loss: 0.0418, Train Accuracy: 0.9860, Samples: 1451398
+Client 1 - Test Loss: 0.0385, Test Accuracy: 0.9863, Samples: 362850
+Client 2 - Test Loss: 0.0332, Test Accuracy: 0.9882, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0358, Test Accuracy: 0.9873, Precision: 0.9864, Recall: 0.9873, F1-Score: 0.9867
+
+Round 3
+Client 1 - Train Loss: 0.0423, Train Accuracy: 0.9864, Samples: 1451398
+Client 2 - Train Loss: 0.0356, Train Accuracy: 0.9876, Samples: 1451398
+Client 1 - Test Loss: 0.0349, Test Accuracy: 0.9878, Samples: 362850
+Client 2 - Test Loss: 0.0404, Test Accuracy: 0.9860, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0377, Test Accuracy: 0.9869, Precision: 0.9862, Recall: 0.9869, F1-Score: 0.9862
+
+Round 4
+Client 1 - Train Loss: 0.0359, Train Accuracy: 0.9877, Samples: 1451398
+Client 2 - Train Loss: 0.0407, Train Accuracy: 0.9862, Samples: 1451398
+Client 1 - Test Loss: 0.0326, Test Accuracy: 0.9884, Samples: 362850
+Client 2 - Test Loss: 0.0388, Test Accuracy: 0.9863, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0357, Test Accuracy: 0.9873, Precision: 0.9870, Recall: 0.9873, F1-Score: 0.9868
+
+Round 5
+Client 1 - Train Loss: 0.0416, Train Accuracy: 0.9862, Samples: 1451398
+Client 2 - Train Loss: 0.0363, Train Accuracy: 0.9880, Samples: 1451398
+Client 1 - Test Loss: 0.0367, Test Accuracy: 0.9867, Samples: 362850
+Client 2 - Test Loss: 0.0332, Test Accuracy: 0.9885, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0350, Test Accuracy: 0.9876, Precision: 0.9871, Recall: 0.9876, F1-Score: 0.9868
+
+Round 6
+Client 1 - Train Loss: 0.0416, Train Accuracy: 0.9863, Samples: 1451398
+Client 2 - Train Loss: 0.0408, Train Accuracy: 0.9870, Samples: 1451398
+Client 1 - Test Loss: 0.0323, Test Accuracy: 0.9880, Samples: 362850
+Client 2 - Test Loss: 0.0379, Test Accuracy: 0.9858, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0351, Test Accuracy: 0.9869, Precision: 0.9877, Recall: 0.9869, F1-Score: 0.9864
+
+Round 7
+Client 1 - Train Loss: 0.0408, Train Accuracy: 0.9868, Samples: 1451398
+Client 2 - Train Loss: 0.0534, Train Accuracy: 0.9857, Samples: 1451398
+Client 1 - Test Loss: 0.0456, Test Accuracy: 0.9845, Samples: 362850
+Client 2 - Test Loss: 0.0375, Test Accuracy: 0.9869, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0415, Test Accuracy: 0.9857, Precision: 0.9847, Recall: 0.9857, F1-Score: 0.9847
+
+Round 8
+Client 1 - Train Loss: 0.0448, Train Accuracy: 0.9868, Samples: 1451398
+Client 2 - Train Loss: 0.0464, Train Accuracy: 0.9848, Samples: 1451398
+Client 1 - Test Loss: 0.0364, Test Accuracy: 0.9874, Samples: 362850
+Client 2 - Test Loss: 0.0439, Test Accuracy: 0.9854, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0402, Test Accuracy: 0.9864, Precision: 0.9872, Recall: 0.9864, F1-Score: 0.9852
+
+Round 9
+Client 1 - Train Loss: 0.0444, Train Accuracy: 0.9863, Samples: 1451398
+Client 2 - Train Loss: 0.0508, Train Accuracy: 0.9841, Samples: 1451398
+Client 1 - Test Loss: 0.0535, Test Accuracy: 0.9814, Samples: 362850
+Client 2 - Test Loss: 0.0457, Test Accuracy: 0.9840, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0496, Test Accuracy: 0.9827, Precision: 0.9863, Recall: 0.9827, F1-Score: 0.9823
+
+Round 10
+Client 1 - Train Loss: 0.0521, Train Accuracy: 0.9840, Samples: 1451398
+Client 2 - Train Loss: 0.0494, Train Accuracy: 0.9861, Samples: 1451398
+Client 1 - Test Loss: 0.0474, Test Accuracy: 0.9786, Samples: 362850
+Client 2 - Test Loss: 0.0704, Test Accuracy: 0.9751, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0589, Test Accuracy: 0.9769, Precision: 0.9841, Recall: 0.9769, F1-Score: 0.9772
+
+Round 11
+Client 1 - Train Loss: 0.0504, Train Accuracy: 0.9850, Samples: 1451398
+Client 2 - Train Loss: 0.0527, Train Accuracy: 0.9844, Samples: 1451398
+Client 1 - Test Loss: 0.0499, Test Accuracy: 0.9829, Samples: 362850
+Client 2 - Test Loss: 0.0555, Test Accuracy: 0.9800, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0527, Test Accuracy: 0.9815, Precision: 0.9869, Recall: 0.9815, F1-Score: 0.9813
+
+Round 12
+Client 1 - Train Loss: 0.0707, Train Accuracy: 0.9806, Samples: 1451398
+Client 2 - Train Loss: 0.0521, Train Accuracy: 0.9852, Samples: 1451398
+Client 1 - Test Loss: 0.0505, Test Accuracy: 0.9744, Samples: 362850
+Client 2 - Test Loss: 0.0601, Test Accuracy: 0.9703, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0553, Test Accuracy: 0.9724, Precision: 0.9860, Recall: 0.9724, F1-Score: 0.9728
+
+Round 13
+Client 1 - Train Loss: 0.0581, Train Accuracy: 0.9824, Samples: 1451398
+Client 2 - Train Loss: 0.0923, Train Accuracy: 0.9800, Samples: 1451398
+Client 1 - Test Loss: 0.0527, Test Accuracy: 0.9815, Samples: 362850
+Client 2 - Test Loss: 0.0639, Test Accuracy: 0.9782, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0583, Test Accuracy: 0.9798, Precision: 0.9852, Recall: 0.9798, F1-Score: 0.9769
+
+Round 14
+Client 1 - Train Loss: 0.0696, Train Accuracy: 0.9798, Samples: 1451398
+Client 2 - Train Loss: 0.0989, Train Accuracy: 0.9823, Samples: 1451398
+Client 1 - Test Loss: 0.0784, Test Accuracy: 0.9817, Samples: 362850
+Client 2 - Test Loss: 0.0694, Test Accuracy: 0.9786, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0739, Test Accuracy: 0.9801, Precision: 0.9854, Recall: 0.9801, F1-Score: 0.9774
+
+Round 15
+Client 1 - Train Loss: 0.1852, Train Accuracy: 0.9808, Samples: 1451398
+Client 2 - Train Loss: 0.0697, Train Accuracy: 0.9821, Samples: 1451398
+Client 1 - Test Loss: 0.0542, Test Accuracy: 0.9828, Samples: 362850
+Client 2 - Test Loss: 0.0589, Test Accuracy: 0.9799, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0566, Test Accuracy: 0.9813, Precision: 0.9866, Recall: 0.9813, F1-Score: 0.9787
+
+Round 16
+Client 1 - Train Loss: 0.0706, Train Accuracy: 0.9806, Samples: 1451398
+Client 2 - Train Loss: 0.0599, Train Accuracy: 0.9821, Samples: 1451398
+Client 1 - Test Loss: 0.0603, Test Accuracy: 0.9792, Samples: 362850
+Client 2 - Test Loss: 0.0519, Test Accuracy: 0.9823, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0561, Test Accuracy: 0.9807, Precision: 0.9849, Recall: 0.9807, F1-Score: 0.9783
+
+Round 17
+Client 1 - Train Loss: 0.0774, Train Accuracy: 0.9798, Samples: 1451398
+Client 2 - Train Loss: 0.0625, Train Accuracy: 0.9822, Samples: 1451398
+Client 1 - Test Loss: 0.0650, Test Accuracy: 0.9795, Samples: 362850
+Client 2 - Test Loss: 0.0506, Test Accuracy: 0.9826, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0578, Test Accuracy: 0.9811, Precision: 0.9863, Recall: 0.9811, F1-Score: 0.9785
+
+Round 18
+Client 1 - Train Loss: 0.0687, Train Accuracy: 0.9820, Samples: 1451398
+Client 2 - Train Loss: 0.1075, Train Accuracy: 0.9794, Samples: 1451398
+Client 1 - Test Loss: 0.0502, Test Accuracy: 0.9822, Samples: 362850
+Client 2 - Test Loss: 0.0646, Test Accuracy: 0.9788, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0574, Test Accuracy: 0.9805, Precision: 0.9864, Recall: 0.9805, F1-Score: 0.9773
+
+Round 19
+Client 1 - Train Loss: 0.0799, Train Accuracy: 0.9815, Samples: 1451398
+Client 2 - Train Loss: 0.1097, Train Accuracy: 0.9794, Samples: 1451398
+Client 1 - Test Loss: 0.0724, Test Accuracy: 0.9789, Samples: 362850
+Client 2 - Test Loss: 0.0529, Test Accuracy: 0.9822, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0626, Test Accuracy: 0.9805, Precision: 0.9860, Recall: 0.9805, F1-Score: 0.9778
+
+Round 20
+Client 1 - Train Loss: 0.0578, Train Accuracy: 0.9815, Samples: 1451398
+Client 2 - Train Loss: 0.0717, Train Accuracy: 0.9796, Samples: 1451398
+Client 1 - Test Loss: 0.0523, Test Accuracy: 0.9825, Samples: 362850
+Client 2 - Test Loss: 0.0624, Test Accuracy: 0.9793, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0574, Test Accuracy: 0.9809, Precision: 0.9867, Recall: 0.9809, F1-Score: 0.9780
+
+Round 21
+Client 1 - Train Loss: 0.0701, Train Accuracy: 0.9812, Samples: 1451398
+Client 2 - Train Loss: 0.0691, Train Accuracy: 0.9792, Samples: 1451398
+Client 1 - Test Loss: 0.0521, Test Accuracy: 0.9826, Samples: 362850
+Client 2 - Test Loss: 0.0701, Test Accuracy: 0.9794, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0611, Test Accuracy: 0.9810, Precision: 0.9869, Recall: 0.9810, F1-Score: 0.9782
+
+Round 22
+Client 1 - Train Loss: 0.0828, Train Accuracy: 0.9790, Samples: 1451398
+Client 2 - Train Loss: 0.0703, Train Accuracy: 0.9809, Samples: 1451398
+Client 1 - Test Loss: 0.0711, Test Accuracy: 0.9783, Samples: 362850
+Client 2 - Test Loss: 0.0566, Test Accuracy: 0.9815, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0638, Test Accuracy: 0.9799, Precision: 0.9861, Recall: 0.9799, F1-Score: 0.9773
+
+Round 23
+Client 1 - Train Loss: 0.0938, Train Accuracy: 0.9811, Samples: 1451398
+Client 2 - Train Loss: 0.0745, Train Accuracy: 0.9784, Samples: 1451398
+Client 1 - Test Loss: 0.0551, Test Accuracy: 0.9827, Samples: 362850
+Client 2 - Test Loss: 0.1082, Test Accuracy: 0.9795, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0817, Test Accuracy: 0.9811, Precision: 0.9866, Recall: 0.9811, F1-Score: 0.9786
+
+Round 24
+Client 1 - Train Loss: 0.0708, Train Accuracy: 0.9812, Samples: 1451398
+Client 2 - Train Loss: 0.1007, Train Accuracy: 0.9784, Samples: 1451398
+Client 1 - Test Loss: 0.0609, Test Accuracy: 0.9806, Samples: 362850
+Client 2 - Test Loss: 0.0670, Test Accuracy: 0.9772, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0640, Test Accuracy: 0.9789, Precision: 0.9852, Recall: 0.9789, F1-Score: 0.9756
+
+Round 25
+Client 1 - Train Loss: 0.0769, Train Accuracy: 0.9807, Samples: 1451398
+Client 2 - Train Loss: 0.0836, Train Accuracy: 0.9780, Samples: 1451398
+Client 1 - Test Loss: 0.0645, Test Accuracy: 0.9806, Samples: 362850
+Client 2 - Test Loss: 0.0651, Test Accuracy: 0.9770, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0648, Test Accuracy: 0.9788, Precision: 0.9851, Recall: 0.9788, F1-Score: 0.9755
+
+Round 26
+Client 1 - Train Loss: 0.0660, Train Accuracy: 0.9805, Samples: 1451398
+Client 2 - Train Loss: 0.0783, Train Accuracy: 0.9789, Samples: 1451398
+Client 1 - Test Loss: 0.0641, Test Accuracy: 0.9819, Samples: 362850
+Client 2 - Test Loss: 0.0678, Test Accuracy: 0.9788, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0659, Test Accuracy: 0.9804, Precision: 0.9865, Recall: 0.9804, F1-Score: 0.9774
+
+Round 27
+Client 1 - Train Loss: 0.1011, Train Accuracy: 0.9809, Samples: 1451398
+Client 2 - Train Loss: 0.0738, Train Accuracy: 0.9783, Samples: 1451398
+Client 1 - Test Loss: 0.0664, Test Accuracy: 0.9772, Samples: 362850
+Client 2 - Test Loss: 0.0607, Test Accuracy: 0.9808, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0635, Test Accuracy: 0.9790, Precision: 0.9853, Recall: 0.9790, F1-Score: 0.9756
+
+Round 28
+Client 1 - Train Loss: 0.0710, Train Accuracy: 0.9798, Samples: 1451398
+Client 2 - Train Loss: 0.1011, Train Accuracy: 0.9784, Samples: 1451398
+Client 1 - Test Loss: 0.0875, Test Accuracy: 0.9810, Samples: 362850
+Client 2 - Test Loss: 0.0821, Test Accuracy: 0.9778, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0848, Test Accuracy: 0.9794, Precision: 0.9861, Recall: 0.9794, F1-Score: 0.9764
+
+Round 29
+Client 1 - Train Loss: 0.0820, Train Accuracy: 0.9798, Samples: 1451398
+Client 2 - Train Loss: 0.0791, Train Accuracy: 0.9782, Samples: 1451398
+Client 1 - Test Loss: 0.1085, Test Accuracy: 0.9773, Samples: 362850
+Client 2 - Test Loss: 0.0900, Test Accuracy: 0.9730, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0992, Test Accuracy: 0.9752, Precision: 0.9829, Recall: 0.9752, F1-Score: 0.9721
+
+Round 30
+Client 1 - Train Loss: 0.1038, Train Accuracy: 0.9777, Samples: 1451398
+Client 2 - Train Loss: 0.0873, Train Accuracy: 0.9804, Samples: 1451398
+Client 1 - Test Loss: 0.1368, Test Accuracy: 0.9806, Samples: 362850
+Client 2 - Test Loss: 0.0706, Test Accuracy: 0.9772, Samples: 362850
+[Global Evaluation] - Test Loss: 0.1037, Test Accuracy: 0.9789, Precision: 0.9861, Recall: 0.9789, F1-Score: 0.9760
+
+Round 31
+Client 1 - Train Loss: 0.0793, Train Accuracy: 0.9772, Samples: 1451398
+Client 2 - Train Loss: 0.1270, Train Accuracy: 0.9789, Samples: 1451398
+Client 1 - Test Loss: 0.1476, Test Accuracy: 0.9800, Samples: 362850
+Client 2 - Test Loss: 0.0778, Test Accuracy: 0.9764, Samples: 362850
+[Global Evaluation] - Test Loss: 0.1127, Test Accuracy: 0.9782, Precision: 0.9858, Recall: 0.9782, F1-Score: 0.9754
+
+Round 32
+Client 1 - Train Loss: 0.5531, Train Accuracy: 0.9761, Samples: 1451398
+Client 2 - Train Loss: 0.0785, Train Accuracy: 0.9792, Samples: 1451398
+Client 1 - Test Loss: 0.1431, Test Accuracy: 0.9798, Samples: 362850
+Client 2 - Test Loss: 0.1021, Test Accuracy: 0.9761, Samples: 362850
+[Global Evaluation] - Test Loss: 0.1226, Test Accuracy: 0.9779, Precision: 0.9856, Recall: 0.9779, F1-Score: 0.9749
+
+Round 33
+Client 1 - Train Loss: 0.0965, Train Accuracy: 0.9762, Samples: 1451398
+Client 2 - Train Loss: 0.3377, Train Accuracy: 0.9782, Samples: 1451398
+Client 1 - Test Loss: 0.0866, Test Accuracy: 0.9753, Samples: 362850
+Client 2 - Test Loss: 0.1082, Test Accuracy: 0.9790, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0974, Test Accuracy: 0.9772, Precision: 0.9857, Recall: 0.9772, F1-Score: 0.9742
+
+Round 34
+Client 1 - Train Loss: 0.0840, Train Accuracy: 0.9766, Samples: 1451398
+Client 2 - Train Loss: 0.2338, Train Accuracy: 0.9794, Samples: 1451398
+Client 1 - Test Loss: 0.1469, Test Accuracy: 0.9766, Samples: 362850
+Client 2 - Test Loss: 0.1201, Test Accuracy: 0.9801, Samples: 362850
+[Global Evaluation] - Test Loss: 0.1335, Test Accuracy: 0.9784, Precision: 0.9861, Recall: 0.9784, F1-Score: 0.9757
+
+Round 35
+Client 1 - Train Loss: 0.1022, Train Accuracy: 0.9754, Samples: 1451398
+Client 2 - Train Loss: 0.1702, Train Accuracy: 0.9784, Samples: 1451398
+Client 1 - Test Loss: 0.0946, Test Accuracy: 0.9746, Samples: 362850
+Client 2 - Test Loss: 0.0884, Test Accuracy: 0.9785, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0915, Test Accuracy: 0.9766, Precision: 0.9853, Recall: 0.9766, F1-Score: 0.9729
+
+Round 36
+Client 1 - Train Loss: 0.0936, Train Accuracy: 0.9786, Samples: 1451398
+Client 2 - Train Loss: 0.1034, Train Accuracy: 0.9758, Samples: 1451398
+Client 1 - Test Loss: 0.0926, Test Accuracy: 0.9757, Samples: 362850
+Client 2 - Test Loss: 0.1115, Test Accuracy: 0.9793, Samples: 362850
+[Global Evaluation] - Test Loss: 0.1021, Test Accuracy: 0.9775, Precision: 0.9859, Recall: 0.9775, F1-Score: 0.9745
+
+Round 37
+Client 1 - Train Loss: 0.0767, Train Accuracy: 0.9783, Samples: 1451398
+Client 2 - Train Loss: 0.1724, Train Accuracy: 0.9758, Samples: 1451398
+Client 1 - Test Loss: 0.2570, Test Accuracy: 0.9273, Samples: 362850
+Client 2 - Test Loss: 0.2843, Test Accuracy: 0.9216, Samples: 362850
+[Global Evaluation] - Test Loss: 0.2706, Test Accuracy: 0.9245, Precision: 0.9771, Recall: 0.9245, F1-Score: 0.9352
+
+Round 38
+Client 1 - Train Loss: 0.2763, Train Accuracy: 0.9758, Samples: 1451398
+Client 2 - Train Loss: 0.0898, Train Accuracy: 0.9774, Samples: 1451398
+Client 1 - Test Loss: 0.0698, Test Accuracy: 0.9774, Samples: 362850
+Client 2 - Test Loss: 0.0769, Test Accuracy: 0.9734, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0734, Test Accuracy: 0.9754, Precision: 0.9850, Recall: 0.9754, F1-Score: 0.9718
+
+Round 39
+Client 1 - Train Loss: 0.1004, Train Accuracy: 0.9764, Samples: 1451398
+Client 2 - Train Loss: 0.1330, Train Accuracy: 0.9732, Samples: 1451398
+Client 1 - Test Loss: 0.2277, Test Accuracy: 0.9316, Samples: 362850
+Client 2 - Test Loss: 0.2566, Test Accuracy: 0.9250, Samples: 362850
+[Global Evaluation] - Test Loss: 0.2421, Test Accuracy: 0.9283, Precision: 0.9624, Recall: 0.9283, F1-Score: 0.9344
+
+Round 40
+Client 1 - Train Loss: 0.1015, Train Accuracy: 0.9745, Samples: 1451398
+Client 2 - Train Loss: 0.1846, Train Accuracy: 0.9774, Samples: 1451398
+Client 1 - Test Loss: 0.0683, Test Accuracy: 0.9775, Samples: 362850
+Client 2 - Test Loss: 0.0883, Test Accuracy: 0.9733, Samples: 362850
+[Global Evaluation] - Test Loss: 0.0783, Test Accuracy: 0.9754, Precision: 0.9849, Recall: 0.9754, F1-Score: 0.9721
+
+num-server-rounds = 40
+local-epochs = 5
+batch-size = 32
