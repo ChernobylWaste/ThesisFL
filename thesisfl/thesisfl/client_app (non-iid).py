@@ -42,9 +42,11 @@ class FlowerClient(NumPyClient):
         }
 
     def evaluate(self, parameters, config):
+        """Mengevaluasi model yang sudah di training dan dibuatkan metrics."""
         self.model.set_weights(parameters)
         
         start_time = time.time()  
+
         y_pred_prob = self.model.predict(self.x_test, verbose=0)
         y_pred = np.argmax(y_pred_prob, axis=1)
         y_true = np.argmax(self.y_test, axis=1)
@@ -54,7 +56,8 @@ class FlowerClient(NumPyClient):
         f1 = f1_score(y_true, y_pred, average="weighted", zero_division=0)
 
         loss, accuracy = self.model.evaluate(self.x_test, self.y_test, verbose=0)
-        time.sleep(1.0)
+        # time.sleep(1.0)
+
         end_time = time.time()
 
         test_time = end_time - start_time

@@ -11,11 +11,16 @@ from sklearn.preprocessing import StandardScaler
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
-DATASET_PATH = "/home/mbc/thesissatria/Dataset/CICIOT2023 10%.csv"
+DATASET_PATHS = {
+    0:"/home/mbc/thesissatria/Dataset/CICIoT2023 rows 1814248_35,15%, 44,89%, 45,24%, 67,03%, 46,33%, 42,31%, 42,39%, 43,16%, 45,13%.csv",
+    1:"/home/mbc/thesissatria/Dataset/CICIoT2023 rows 1814248_31,73%, 51,54%, 57,79%, 87,57%, 87,46%, 93,75%, 93,01%, 93,99%, 100%.csv"
+}
+
 
 def load_data(partition_id, num_partitions):
     """Memuat dataset, membagi menjadi partisi untuk FL, dan melakukan preprocessing."""
-    df = pd.read_csv(DATASET_PATH)
+    dataset_path = DATASET_PATHS.get(partition_id)
+    df = pd.read_csv(dataset_path)
 
     df.drop_duplicates(inplace=True)
 
@@ -33,21 +38,21 @@ def load_data(partition_id, num_partitions):
     scaler = StandardScaler()
     features = scaler.fit_transform(features)
 
-    # Mengacak urutan dataset agar setiap round berbeda beda
     df = df.sample(frac=1,random_state=np.random.randint(0,10000)).reset_index(drop=True)
 
-    # Partisi dataset sesuai jumlah client
-    total_samples = len(df)
-    partition_size = total_samples // num_partitions
-    start_idx = partition_id * partition_size
-    end_idx = start_idx + partition_size
+    """Untuk melihat Hasil pengacakan data"""
+    # os.environ["RAY_DEDUP_LOGS"] = "0"
 
-    x_partition = features[start_idx:end_idx]
-    y_partition = labels[start_idx:end_idx]
+    # print(f"Debug - Sample data setelah diacak di round:\n", df.head())
+
+    # class_counts = pd.Series(y_partition).value_counts().to_dict()
+    # print("=" * 50)
+    # print(f"Client {partition_id} - Distribusi Kelas: {class_counts}")
+    # print("=" * 50)
 
     # Bagi menjadi training dan testing
     x_train, x_test, y_train, y_test = train_test_split(
-        x_partition, y_partition, test_size=0.2, random_state=42
+        features, labels, test_size=0.2, random_state=42
     )
 
     # Ubah label ke format one-hot encoding

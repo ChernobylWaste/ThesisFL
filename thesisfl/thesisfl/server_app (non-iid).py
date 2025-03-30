@@ -19,6 +19,7 @@ def aggregate_evaluate_metrics(metrics: List[Tuple[int, Metrics]]) -> Metrics:
     recalls = [num_examples * m["recall"] for num_examples, m in metrics]
     f1_scores = [num_examples * m["f1_score"] for num_examples, m in metrics]
 
+    # Memastikan `test_time` ada di setiap metrik, jika tidak, set default 0
     test_times = [m.get("test_time", 0) for _, m in metrics]  
 
     global_loss = sum(losses) / total_examples
@@ -63,7 +64,6 @@ def handle_fit_metrics(metrics: List[Tuple[int, Metrics]]) -> Metrics:
 
 def handle_evaluate_metrics(metrics: List[Tuple[int, Metrics]]) -> Metrics:
     """Mencatat hasil testing tiap client."""
-    
     with open("results.txt", "a") as log_file:
         for client_id, (num_examples, m) in enumerate(metrics, start=1):
             log_msg = (f"Client {client_id} - Test Loss: {m['loss']:.4f}, "
@@ -94,6 +94,7 @@ def server_fn(context: Context):
         # proximal_mu=1.0
     )
     config = ServerConfig(num_rounds=num_rounds)
+
 
     return ServerAppComponents(strategy=strategy, config=config)
 
