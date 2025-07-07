@@ -1,0 +1,350 @@
+Client 1 - Train Loss: 0.0381, Train Accuracy: 0.9862, Training Time: 195.0311 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0400, Train Accuracy: 0.9864, Training Time: 195.0950 seconds, Samples: 1451400
+Client 1 - Test Loss: 7.2852, Test Accuracy: 0.6391, Test Time: 19.0587 seconds, Samples: 362850
+Client 2 - Test Loss: 7.3204, Test Accuracy: 0.6379, Test Time: 18.9526 seconds, Samples: 362850
+[Global Evaluation] - Loss: 7.3028, Accuracy: 0.6385, Precision: 0.7575, Recall: 0.6385, F1-Score: 0.6426, Avg Test Time: 19.0057 seconds
+
+
+Client 1 - Train Loss: 0.0373, Train Accuracy: 0.9866, Training Time: 197.6398 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0374, Train Accuracy: 0.9869, Training Time: 198.3780 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0482, Test Accuracy: 0.9853, Test Time: 19.0581 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0483, Test Accuracy: 0.9854, Test Time: 19.0950 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0483, Accuracy: 0.9854, Precision: 0.9851, Recall: 0.9854, F1-Score: 0.9846, Avg Test Time: 19.0766 seconds
+
+
+Client 1 - Train Loss: 0.0371, Train Accuracy: 0.9868, Training Time: 201.8682 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0376, Train Accuracy: 0.9870, Training Time: 200.8957 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0365, Test Accuracy: 0.9876, Test Time: 18.2338 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0361, Test Accuracy: 0.9876, Test Time: 18.2826 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0363, Accuracy: 0.9876, Precision: 0.9876, Recall: 0.9876, F1-Score: 0.9866, Avg Test Time: 18.2582 seconds
+
+
+Client 1 - Train Loss: 0.0371, Train Accuracy: 0.9869, Training Time: 193.7549 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0370, Train Accuracy: 0.9868, Training Time: 193.7082 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0349, Test Accuracy: 0.9872, Test Time: 18.2647 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0354, Test Accuracy: 0.9873, Test Time: 18.3193 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0352, Accuracy: 0.9873, Precision: 0.9866, Recall: 0.9873, F1-Score: 0.9869, Avg Test Time: 18.2920 seconds
+
+
+Client 1 - Train Loss: 0.0411, Train Accuracy: 0.9867, Training Time: 194.8163 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0520, Train Accuracy: 0.9866, Training Time: 196.7742 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0346, Test Accuracy: 0.9874, Test Time: 18.1075 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0355, Test Accuracy: 0.9875, Test Time: 18.1245 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0351, Accuracy: 0.9875, Precision: 0.9869, Recall: 0.9875, F1-Score: 0.9870, Avg Test Time: 18.1160 seconds
+
+
+Client 1 - Train Loss: 0.0435, Train Accuracy: 0.9868, Training Time: 195.2666 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0481, Train Accuracy: 0.9867, Training Time: 194.5109 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0364, Test Accuracy: 0.9867, Test Time: 18.4924 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0371, Test Accuracy: 0.9866, Test Time: 18.4820 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0368, Accuracy: 0.9866, Precision: 0.9862, Recall: 0.9866, F1-Score: 0.9857, Avg Test Time: 18.4872 seconds
+
+
+Client 1 - Train Loss: 0.0501, Train Accuracy: 0.9868, Training Time: 195.3762 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0425, Train Accuracy: 0.9867, Training Time: 196.0093 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0356, Test Accuracy: 0.9871, Test Time: 17.9500 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0359, Test Accuracy: 0.9871, Test Time: 18.0440 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0357, Accuracy: 0.9871, Precision: 0.9865, Recall: 0.9871, F1-Score: 0.9866, Avg Test Time: 17.9970 seconds
+
+
+Client 1 - Train Loss: 0.0869, Train Accuracy: 0.9866, Training Time: 202.4326 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0511, Train Accuracy: 0.9867, Training Time: 194.1506 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0378, Test Accuracy: 0.9868, Test Time: 18.3004 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0372, Test Accuracy: 0.9867, Test Time: 18.3692 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0375, Accuracy: 0.9868, Precision: 0.9866, Recall: 0.9868, F1-Score: 0.9866, Avg Test Time: 18.3348 seconds
+
+
+Client 1 - Train Loss: 0.1051, Train Accuracy: 0.9867, Training Time: 197.1168 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0711, Train Accuracy: 0.9867, Training Time: 196.0339 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0410, Test Accuracy: 0.9848, Test Time: 18.4805 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0466, Test Accuracy: 0.9849, Test Time: 18.4334 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0438, Accuracy: 0.9848, Precision: 0.9861, Recall: 0.9848, F1-Score: 0.9848, Avg Test Time: 18.4569 seconds
+
+
+Client 1 - Train Loss: 0.0644, Train Accuracy: 0.9866, Training Time: 196.6574 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0752, Train Accuracy: 0.9867, Training Time: 194.7566 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0405, Test Accuracy: 0.9874, Test Time: 18.1031 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0414, Test Accuracy: 0.9873, Test Time: 18.2522 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0410, Accuracy: 0.9873, Precision: 0.9867, Recall: 0.9873, F1-Score: 0.9869, Avg Test Time: 18.1776 seconds
+
+
+Client 1 - Train Loss: 0.0412, Train Accuracy: 0.9867, Training Time: 197.1472 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0439, Train Accuracy: 0.9865, Training Time: 197.8400 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0439, Test Accuracy: 0.9866, Test Time: 18.7441 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0357, Test Accuracy: 0.9867, Test Time: 18.6764 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0398, Accuracy: 0.9867, Precision: 0.9865, Recall: 0.9867, F1-Score: 0.9862, Avg Test Time: 18.7102 seconds
+
+
+Client 1 - Train Loss: 0.0438, Train Accuracy: 0.9865, Training Time: 197.5796 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0436, Train Accuracy: 0.9859, Training Time: 198.4265 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0361, Test Accuracy: 0.9870, Test Time: 18.3194 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0563, Test Accuracy: 0.9869, Test Time: 18.5268 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0462, Accuracy: 0.9870, Precision: 0.9876, Recall: 0.9870, F1-Score: 0.9863, Avg Test Time: 18.4231 seconds
+
+
+Client 1 - Train Loss: 0.1362, Train Accuracy: 0.9861, Training Time: 196.7052 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0495, Train Accuracy: 0.9858, Training Time: 196.4328 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0647, Test Accuracy: 0.9827, Test Time: 19.0891 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0768, Test Accuracy: 0.9829, Test Time: 19.0167 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0707, Accuracy: 0.9828, Precision: 0.9809, Recall: 0.9828, F1-Score: 0.9816, Avg Test Time: 19.0529 seconds
+
+
+Client 1 - Train Loss: 0.0474, Train Accuracy: 0.9858, Training Time: 200.6127 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0504, Train Accuracy: 0.9862, Training Time: 199.4060 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0409, Test Accuracy: 0.9870, Test Time: 18.0584 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0459, Test Accuracy: 0.9870, Test Time: 18.7561 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0434, Accuracy: 0.9870, Precision: 0.9866, Recall: 0.9870, F1-Score: 0.9859, Avg Test Time: 18.4072 seconds
+
+
+Client 1 - Train Loss: 0.0762, Train Accuracy: 0.9861, Training Time: 198.1117 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0475, Train Accuracy: 0.9858, Training Time: 194.4084 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0408, Test Accuracy: 0.9873, Test Time: 18.0676 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0529, Test Accuracy: 0.9874, Test Time: 18.7383 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0469, Accuracy: 0.9874, Precision: 0.9873, Recall: 0.9874, F1-Score: 0.9866, Avg Test Time: 18.4029 seconds
+
+
+Client 1 - Train Loss: 0.0488, Train Accuracy: 0.9860, Training Time: 194.3812 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.2116, Train Accuracy: 0.9861, Training Time: 197.8623 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0475, Test Accuracy: 0.9848, Test Time: 18.1022 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0612, Test Accuracy: 0.9850, Test Time: 18.7423 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0544, Accuracy: 0.9849, Precision: 0.9838, Recall: 0.9849, F1-Score: 0.9843, Avg Test Time: 18.4223 seconds
+
+
+Client 1 - Train Loss: 0.0462, Train Accuracy: 0.9867, Training Time: 193.3660 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.2009, Train Accuracy: 0.9860, Training Time: 195.5754 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0450, Test Accuracy: 0.9872, Test Time: 18.5189 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0400, Test Accuracy: 0.9871, Test Time: 18.0641 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0425, Accuracy: 0.9871, Precision: 0.9864, Recall: 0.9871, F1-Score: 0.9863, Avg Test Time: 18.2915 seconds
+
+
+Client 1 - Train Loss: 0.0739, Train Accuracy: 0.9855, Training Time: 197.1558 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0575, Train Accuracy: 0.9864, Training Time: 194.0098 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0607, Test Accuracy: 0.9870, Test Time: 18.3497 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0381, Test Accuracy: 0.9867, Test Time: 17.8447 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0494, Accuracy: 0.9869, Precision: 0.9860, Recall: 0.9869, F1-Score: 0.9863, Avg Test Time: 18.0972 seconds
+
+
+Client 1 - Train Loss: 0.0554, Train Accuracy: 0.9857, Training Time: 196.3466 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0591, Train Accuracy: 0.9849, Training Time: 192.8487 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0527, Test Accuracy: 0.9854, Test Time: 18.4660 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0434, Test Accuracy: 0.9852, Test Time: 17.8495 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0480, Accuracy: 0.9853, Precision: 0.9870, Recall: 0.9853, F1-Score: 0.9837, Avg Test Time: 18.1577 seconds
+
+
+Client 1 - Train Loss: 0.0913, Train Accuracy: 0.9847, Training Time: 196.8870 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0524, Train Accuracy: 0.9849, Training Time: 194.4444 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0444, Test Accuracy: 0.9845, Test Time: 18.1205 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0833, Test Accuracy: 0.9848, Test Time: 18.5449 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0638, Accuracy: 0.9846, Precision: 0.9835, Recall: 0.9846, F1-Score: 0.9834, Avg Test Time: 18.3327 seconds
+
+
+Client 1 - Train Loss: 0.0634, Train Accuracy: 0.9848, Training Time: 195.0825 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.1388, Train Accuracy: 0.9849, Training Time: 198.3762 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0665, Test Accuracy: 0.9852, Test Time: 19.6504 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0431, Test Accuracy: 0.9853, Test Time: 19.2082 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0548, Accuracy: 0.9852, Precision: 0.9863, Recall: 0.9852, F1-Score: 0.9829, Avg Test Time: 19.4293 seconds
+
+
+Client 1 - Train Loss: 0.0593, Train Accuracy: 0.9849, Training Time: 196.5158 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0610, Train Accuracy: 0.9846, Training Time: 193.2491 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.1789, Test Accuracy: 0.9510, Test Time: 18.7743 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0991, Test Accuracy: 0.9506, Test Time: 18.3156 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.1390, Accuracy: 0.9508, Precision: 0.9638, Recall: 0.9508, F1-Score: 0.9509, Avg Test Time: 18.5450 seconds
+
+
+Client 1 - Train Loss: 0.0985, Train Accuracy: 0.9847, Training Time: 192.9870 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0590, Train Accuracy: 0.9847, Training Time: 195.6018 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0472, Test Accuracy: 0.9854, Test Time: 18.2522 seconds, Samples: 362850
+Client 2 - Test Loss: 0.1229, Test Accuracy: 0.9855, Test Time: 18.7602 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0851, Accuracy: 0.9854, Precision: 0.9862, Recall: 0.9854, F1-Score: 0.9838, Avg Test Time: 18.5062 seconds
+
+
+Client 1 - Train Loss: 0.0611, Train Accuracy: 0.9845, Training Time: 198.1119 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.1159, Train Accuracy: 0.9845, Training Time: 194.6709 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0441, Test Accuracy: 0.9841, Test Time: 18.0560 seconds, Samples: 362850
+Client 2 - Test Loss: 0.1024, Test Accuracy: 0.9843, Test Time: 18.5033 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0732, Accuracy: 0.9842, Precision: 0.9870, Recall: 0.9842, F1-Score: 0.9826, Avg Test Time: 18.2797 seconds
+
+
+Client 1 - Train Loss: 0.1259, Train Accuracy: 0.9848, Training Time: 196.3279 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.1029, Train Accuracy: 0.9846, Training Time: 194.6149 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.1842, Test Accuracy: 0.9651, Test Time: 18.8204 seconds, Samples: 362850
+Client 2 - Test Loss: 0.1148, Test Accuracy: 0.9647, Test Time: 18.3476 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.1495, Accuracy: 0.9649, Precision: 0.9651, Recall: 0.9649, F1-Score: 0.9627, Avg Test Time: 18.5840 seconds
+
+
+Client 1 - Train Loss: 0.0620, Train Accuracy: 0.9847, Training Time: 198.9061 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0507, Train Accuracy: 0.9849, Training Time: 197.1020 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0896, Test Accuracy: 0.9863, Test Time: 18.9114 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0446, Test Accuracy: 0.9864, Test Time: 18.3524 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0671, Accuracy: 0.9864, Precision: 0.9872, Recall: 0.9864, F1-Score: 0.9854, Avg Test Time: 18.6319 seconds
+
+
+Client 1 - Train Loss: 0.0564, Train Accuracy: 0.9848, Training Time: 194.3994 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.1980, Train Accuracy: 0.9848, Training Time: 196.6085 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.1184, Test Accuracy: 0.9866, Test Time: 18.5850 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0422, Test Accuracy: 0.9866, Test Time: 18.0673 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0803, Accuracy: 0.9866, Precision: 0.9871, Recall: 0.9866, F1-Score: 0.9856, Avg Test Time: 18.3261 seconds
+
+
+Client 1 - Train Loss: 0.0983, Train Accuracy: 0.9847, Training Time: 197.2638 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0679, Train Accuracy: 0.9847, Training Time: 199.8419 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0459, Test Accuracy: 0.9862, Test Time: 18.1339 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0728, Test Accuracy: 0.9860, Test Time: 18.7067 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0594, Accuracy: 0.9861, Precision: 0.9864, Recall: 0.9861, F1-Score: 0.9847, Avg Test Time: 18.4203 seconds
+
+
+Client 1 - Train Loss: 0.0529, Train Accuracy: 0.9848, Training Time: 194.0639 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0683, Train Accuracy: 0.9847, Training Time: 196.9406 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0863, Test Accuracy: 0.9863, Test Time: 18.3193 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0432, Test Accuracy: 0.9864, Test Time: 17.8112 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0647, Accuracy: 0.9864, Precision: 0.9871, Recall: 0.9864, F1-Score: 0.9857, Avg Test Time: 18.0653 seconds
+
+
+Client 1 - Train Loss: 0.0677, Train Accuracy: 0.9846, Training Time: 199.6525 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.1145, Train Accuracy: 0.9847, Training Time: 195.6094 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0776, Test Accuracy: 0.9856, Test Time: 18.8023 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0488, Test Accuracy: 0.9855, Test Time: 18.2859 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0632, Accuracy: 0.9856, Precision: 0.9856, Recall: 0.9856, F1-Score: 0.9846, Avg Test Time: 18.5441 seconds
+
+
+Client 1 - Train Loss: 0.0579, Train Accuracy: 0.9847, Training Time: 195.8543 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0570, Train Accuracy: 0.9847, Training Time: 198.5173 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0487, Test Accuracy: 0.9863, Test Time: 18.1741 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0513, Test Accuracy: 0.9861, Test Time: 18.6406 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0500, Accuracy: 0.9862, Precision: 0.9867, Recall: 0.9862, F1-Score: 0.9850, Avg Test Time: 18.4074 seconds
+
+
+Client 1 - Train Loss: 0.0755, Train Accuracy: 0.9847, Training Time: 197.7555 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0554, Train Accuracy: 0.9846, Training Time: 194.2608 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0508, Test Accuracy: 0.9853, Test Time: 18.2779 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0627, Test Accuracy: 0.9853, Test Time: 18.8073 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0567, Accuracy: 0.9853, Precision: 0.9858, Recall: 0.9853, F1-Score: 0.9840, Avg Test Time: 18.5426 seconds
+
+
+Client 1 - Train Loss: 0.0670, Train Accuracy: 0.9845, Training Time: 197.2649 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.2044, Train Accuracy: 0.9845, Training Time: 200.9016 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0526, Test Accuracy: 0.9860, Test Time: 18.8774 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0491, Test Accuracy: 0.9861, Test Time: 18.2738 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0509, Accuracy: 0.9860, Precision: 0.9857, Recall: 0.9860, F1-Score: 0.9846, Avg Test Time: 18.5756 seconds
+
+
+Client 1 - Train Loss: 0.0782, Train Accuracy: 0.9848, Training Time: 197.8199 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0556, Train Accuracy: 0.9848, Training Time: 195.2671 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0459, Test Accuracy: 0.9828, Test Time: 18.4776 seconds, Samples: 362850
+Client 2 - Test Loss: 0.1006, Test Accuracy: 0.9828, Test Time: 18.9561 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0733, Accuracy: 0.9828, Precision: 0.9871, Recall: 0.9828, F1-Score: 0.9810, Avg Test Time: 18.7169 seconds
+
+
+Client 1 - Train Loss: 0.1571, Train Accuracy: 0.9848, Training Time: 196.9769 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0751, Train Accuracy: 0.9846, Training Time: 199.5258 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0647, Test Accuracy: 0.9845, Test Time: 18.0228 seconds, Samples: 362850
+Client 2 - Test Loss: 0.1701, Test Accuracy: 0.9843, Test Time: 18.7380 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.1174, Accuracy: 0.9844, Precision: 0.9840, Recall: 0.9844, F1-Score: 0.9840, Avg Test Time: 18.3804 seconds
+
+
+Client 1 - Train Loss: 0.0757, Train Accuracy: 0.9848, Training Time: 199.7872 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0673, Train Accuracy: 0.9846, Training Time: 192.7330 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.1044, Test Accuracy: 0.9863, Test Time: 18.6755 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0440, Test Accuracy: 0.9864, Test Time: 18.1978 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0742, Accuracy: 0.9863, Precision: 0.9863, Recall: 0.9863, F1-Score: 0.9856, Avg Test Time: 18.4367 seconds
+
+
+Client 1 - Train Loss: 0.1378, Train Accuracy: 0.9849, Training Time: 199.5599 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0711, Train Accuracy: 0.9850, Training Time: 195.0123 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.1229, Test Accuracy: 0.9870, Test Time: 18.3947 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0418, Test Accuracy: 0.9870, Test Time: 18.0068 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0823, Accuracy: 0.9870, Precision: 0.9870, Recall: 0.9870, F1-Score: 0.9859, Avg Test Time: 18.2007 seconds
+
+
+Client 1 - Train Loss: 0.2881, Train Accuracy: 0.9848, Training Time: 200.2632 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0588, Train Accuracy: 0.9849, Training Time: 196.5421 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0771, Test Accuracy: 0.9749, Test Time: 17.9684 seconds, Samples: 362850
+Client 2 - Test Loss: 0.1382, Test Accuracy: 0.9747, Test Time: 18.5085 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.1076, Accuracy: 0.9748, Precision: 0.9832, Recall: 0.9748, F1-Score: 0.9753, Avg Test Time: 18.2384 seconds
+
+
+Client 1 - Train Loss: 0.1314, Train Accuracy: 0.9850, Training Time: 198.8933 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.1580, Train Accuracy: 0.9847, Training Time: 195.5802 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0448, Test Accuracy: 0.9863, Test Time: 18.1603 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0911, Test Accuracy: 0.9864, Test Time: 18.5402 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0680, Accuracy: 0.9863, Precision: 0.9870, Recall: 0.9863, F1-Score: 0.9852, Avg Test Time: 18.3503 seconds
+
+
+Client 1 - Train Loss: 0.0642, Train Accuracy: 0.9849, Training Time: 196.8090 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0784, Train Accuracy: 0.9847, Training Time: 200.1433 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.1188, Test Accuracy: 0.9860, Test Time: 18.7570 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0449, Test Accuracy: 0.9860, Test Time: 18.2281 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0818, Accuracy: 0.9860, Precision: 0.9851, Recall: 0.9860, F1-Score: 0.9847, Avg Test Time: 18.4926 seconds
+
+
+Client 1 - Train Loss: 0.0669, Train Accuracy: 0.9847, Training Time: 196.1773 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.1448, Train Accuracy: 0.9850, Training Time: 201.1324 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0468, Test Accuracy: 0.9859, Test Time: 18.3456 seconds, Samples: 362850
+Client 2 - Test Loss: 0.1099, Test Accuracy: 0.9858, Test Time: 18.8172 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0784, Accuracy: 0.9859, Precision: 0.9871, Recall: 0.9859, F1-Score: 0.9843, Avg Test Time: 18.5814 seconds
+
+
+Client 1 - Train Loss: 0.1969, Train Accuracy: 0.9848, Training Time: 200.6607 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0674, Train Accuracy: 0.9849, Training Time: 204.7875 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0429, Test Accuracy: 0.9871, Test Time: 18.1439 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0502, Test Accuracy: 0.9872, Test Time: 18.9510 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0465, Accuracy: 0.9871, Precision: 0.9876, Recall: 0.9871, F1-Score: 0.9860, Avg Test Time: 18.5474 seconds
+
+
+Client 1 - Train Loss: 0.0735, Train Accuracy: 0.9851, Training Time: 194.0054 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0695, Train Accuracy: 0.9852, Training Time: 197.7509 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0674, Test Accuracy: 0.9868, Test Time: 18.9851 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0427, Test Accuracy: 0.9870, Test Time: 18.6662 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0551, Accuracy: 0.9869, Precision: 0.9881, Recall: 0.9869, F1-Score: 0.9861, Avg Test Time: 18.8257 seconds
+
+
+Client 1 - Train Loss: 0.0819, Train Accuracy: 0.9848, Training Time: 197.2708 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0609, Train Accuracy: 0.9850, Training Time: 199.6798 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0682, Test Accuracy: 0.9820, Test Time: 18.4765 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0801, Test Accuracy: 0.9821, Test Time: 19.0297 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0741, Accuracy: 0.9821, Precision: 0.9831, Recall: 0.9821, F1-Score: 0.9813, Avg Test Time: 18.7531 seconds
+
+
+Client 1 - Train Loss: 0.2674, Train Accuracy: 0.9851, Training Time: 197.2924 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0600, Train Accuracy: 0.9849, Training Time: 194.6239 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0682, Test Accuracy: 0.9856, Test Time: 18.2851 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0987, Test Accuracy: 0.9856, Test Time: 18.8282 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0835, Accuracy: 0.9856, Precision: 0.9873, Recall: 0.9856, F1-Score: 0.9850, Avg Test Time: 18.5567 seconds
+
+
+Client 1 - Train Loss: 0.0674, Train Accuracy: 0.9852, Training Time: 199.9889 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0791, Train Accuracy: 0.9851, Training Time: 198.4801 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0433, Test Accuracy: 0.9867, Test Time: 18.2815 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0495, Test Accuracy: 0.9867, Test Time: 18.7091 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0464, Accuracy: 0.9867, Precision: 0.9868, Recall: 0.9867, F1-Score: 0.9860, Avg Test Time: 18.4953 seconds
+
+
+Client 1 - Train Loss: 0.1452, Train Accuracy: 0.9851, Training Time: 196.0915 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.0724, Train Accuracy: 0.9851, Training Time: 198.4632 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0593, Test Accuracy: 0.9802, Test Time: 18.5973 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0744, Test Accuracy: 0.9797, Test Time: 18.9308 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0669, Accuracy: 0.9800, Precision: 0.9878, Recall: 0.9800, F1-Score: 0.9802, Avg Test Time: 18.7641 seconds
+
+
+Client 1 - Train Loss: 0.0625, Train Accuracy: 0.9852, Training Time: 199.4052 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0603, Train Accuracy: 0.9852, Training Time: 196.9014 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0751, Test Accuracy: 0.9864, Test Time: 18.8811 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0481, Test Accuracy: 0.9864, Test Time: 18.3312 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0616, Accuracy: 0.9864, Precision: 0.9869, Recall: 0.9864, F1-Score: 0.9852, Avg Test Time: 18.6062 seconds
+
+
+Client 1 - Train Loss: 0.0634, Train Accuracy: 0.9850, Training Time: 196.7333 seconds, Samples: 1451397
+Client 2 - Train Loss: 0.1106, Train Accuracy: 0.9851, Training Time: 199.2073 seconds, Samples: 1451400
+Client 1 - Test Loss: 0.0453, Test Accuracy: 0.9867, Test Time: 18.5687 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0613, Test Accuracy: 0.9867, Test Time: 19.0488 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0533, Accuracy: 0.9867, Precision: 0.9864, Recall: 0.9867, F1-Score: 0.9855, Avg Test Time: 18.8087 seconds
+
+
+Client 1 - Train Loss: 0.0801, Train Accuracy: 0.9853, Training Time: 200.1399 seconds, Samples: 1451400
+Client 2 - Train Loss: 0.0884, Train Accuracy: 0.9852, Training Time: 196.7063 seconds, Samples: 1451397
+Client 1 - Test Loss: 0.0774, Test Accuracy: 0.9858, Test Time: 19.1046 seconds, Samples: 362850
+Client 2 - Test Loss: 0.0514, Test Accuracy: 0.9857, Test Time: 18.7465 seconds, Samples: 362850
+[Global Evaluation] - Loss: 0.0644, Accuracy: 0.9858, Precision: 0.9862, Recall: 0.9858, F1-Score: 0.9846, Avg Test Time: 18.9256 seconds
+
+Time : 13380.54s
