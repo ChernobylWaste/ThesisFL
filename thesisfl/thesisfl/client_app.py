@@ -54,7 +54,6 @@ class FlowerClient(NumPyClient):
         f1 = f1_score(y_true, y_pred, average="weighted", zero_division=0)
 
         loss, accuracy = self.model.evaluate(self.x_test, self.y_test, verbose=0)
-        time.sleep(1.0)
         end_time = time.time()
 
         test_time = end_time - start_time

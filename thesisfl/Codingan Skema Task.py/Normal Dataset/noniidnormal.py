@@ -40,16 +40,6 @@ def load_data(partition_id, num_partitions):
 
     df = df.sample(frac=1,random_state=np.random.randint(0,10000)).reset_index(drop=True)
 
-    """Untuk melihat Hasil pengacakan data"""
-    # os.environ["RAY_DEDUP_LOGS"] = "0"
-
-    # print(f"Debug - Sample data setelah diacak di round:\n", df.head())
-
-    # class_counts = pd.Series(y_partition).value_counts().to_dict()
-    # print("=" * 50)
-    # print(f"Client {partition_id} - Distribusi Kelas: {class_counts}")
-    # print("=" * 50)
-
     # Bagi menjadi training dan testing
     x_train, x_test, y_train, y_test = train_test_split(
         features, labels, test_size=0.2, random_state=42

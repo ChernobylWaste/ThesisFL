@@ -19,6 +19,7 @@ def aggregate_evaluate_metrics(metrics: List[Tuple[int, Metrics]]) -> Metrics:
     recalls = [num_examples * m["recall"] for num_examples, m in metrics]
     f1_scores = [num_examples * m["f1_score"] for num_examples, m in metrics]
 
+    # Memastikan `test_time` ada di setiap metrik, jika tidak, set default 0
     test_times = [m.get("test_time", 0) for _, m in metrics]  
 
     global_loss = sum(losses) / total_examples
@@ -82,7 +83,7 @@ def server_fn(context: Context):
     parameters = ndarrays_to_parameters(load_model().get_weights())
 
     # Define the federated learning strategy
-    strategy = FedAvg(
+    strategy = FedProx( # Kalau FedAvg, proximal_mu gadipake
         fraction_fit=1.0,
         fraction_evaluate=1.0,
         min_fit_clients=2,
@@ -91,11 +92,10 @@ def server_fn(context: Context):
         initial_parameters=parameters,
         evaluate_metrics_aggregation_fn=handle_evaluate_metrics,
         fit_metrics_aggregation_fn=handle_fit_metrics,
-        # proximal_mu=1.0
+        proximal_mu=2.0
     )
     config = ServerConfig(num_rounds=num_rounds)
 
     return ServerAppComponents(strategy=strategy, config=config)
 
 app = ServerApp(server_fn=server_fn)
-

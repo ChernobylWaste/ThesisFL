@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
-DATASET_PATH = "/home/mbc/thesissatria/Dataset/CICIOT2023 10%.csv"
+DATASET_PATH = "/home/mbc/thesissatria/Dataset/Fix CICIoT2023 10%.csv"
 
 def load_data(partition_id, num_partitions):
     """Memuat dataset, membagi menjadi partisi untuk FL, dan melakukan preprocessing."""

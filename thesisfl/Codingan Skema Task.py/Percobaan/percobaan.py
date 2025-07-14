@@ -26,32 +26,35 @@ def load_data(partition_id, num_partitions):
     }
     df["Attack Type"] = df["Attack Type"].map(label_map)
 
-    # Stratified IID Split: Pembagian Label merata (50:50) ke setiap client 
-    client_data = [[] for _ in range(num_partitions)]
-    for label in df["Attack Type"].unique():
-        df_label = df[df["Attack Type"] == label]
-        df_label = df_label.sample(frac=1).reset_index(drop=True) # Pengacakan Index Setiap Round
-        splits = np.array_split(df_label, num_partitions)
-        for i in range(num_partitions):
-            client_data[i].append(splits[i])
-
-    # Menggabungkan data yg sudah di split ke client
-    df_client = pd.concat(client_data[partition_id]).reset_index(drop=True)
-
-    # Pisahkan fitur dan label kembali
-    X = df_client.drop(columns=["Attack Type"])
-    y = df_client["Attack Type"]
+    features = df.drop(columns=["Attack Type"]).astype("float64")
+    labels = df["Attack Type"]
 
     # Normalisasi menggunakan StandardScaler
     scaler = StandardScaler()
-    X_scaled = scaler.fit_transform(X)
+    features = scaler.fit_transform(features)
 
-    # Split train-test
-    X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.2, random_state=42)
+    # Mengacak urutan dataset agar setiap round berbeda beda
+    df = df.sample(frac=1,random_state=np.random.randint(0,10000)).reset_index(drop=True)
+
+    # Partisi dataset sesuai jumlah client
+    total_samples = len(df)
+    partition_size = total_samples // num_partitions
+    start_idx = partition_id * partition_size
+    end_idx = start_idx + partition_size
+
+    x_partition = features[start_idx:end_idx]
+    y_partition = labels[start_idx:end_idx]
+
+    # Bagi menjadi training dan testing
+    x_train, x_test, y_train, y_test = train_test_split(
+        x_partition, y_partition, test_size=0.2, random_state=42
+    )
+
+    # Ubah label ke format one-hot encoding
     y_train_cat = to_categorical(y_train, num_classes=9)
     y_test_cat = to_categorical(y_test, num_classes=9)
 
-    return X_train, y_train_cat, X_test, y_test_cat
+    return x_train, y_train_cat, x_test, y_test_cat
 
 def load_model():
     """Membangun dan mengembalikan model DNN."""
@@ -64,4 +67,5 @@ def load_model():
 
     model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
     return model
+
 

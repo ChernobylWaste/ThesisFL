@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
-DATASET_PATH = "/home/mbc/thesissatria/Dataset/CICIOT2023 10%.csv"
+DATASET_PATH = "/home/mbc/thesissatria/Dataset/CICIoT2023_IPCASTD10%.csv"
 
 def load_data(partition_id, num_partitions):
     """Memuat dataset, membagi menjadi partisi untuk FL, dan melakukan preprocessing."""
@@ -56,7 +56,7 @@ def load_data(partition_id, num_partitions):
 def load_model():
     """Membangun dan mengembalikan model DNN."""
     model = Sequential([
-        Dense(units=128, activation='relu', input_dim=46),
+        Dense(units=128, activation='relu', input_dim=23),
         Dense(units=64, activation='relu'),
         Dense(units=32, activation='relu'),
         Dense(units=9, activation='softmax')  # Output layer untuk 9 kelas
